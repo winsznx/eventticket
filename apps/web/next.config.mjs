@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     reactStrictMode: true,
-    transpilePackages: ['@chainregistry/shared', '@chainregistry/base-adapter', '@chainregistry/stacks-adapter'],
+    transpilePackages: ['@eventticket/shared', '@eventticket/base-adapter', '@eventticket/stacks-adapter'],
 };
 
 export default nextConfig;
